@@ -23,12 +23,12 @@ body{
 .nome{
     color: aliceblue;
     font: normal 20pt Arial;
-    margin: 5px;
+    margin: 5px 0px 0px 15px;
 }
 .nav1{
     text-decoration: none;
     color: aliceblue;
-    margin: 3px 15px 0 5px;
+    margin: 3px 15px 0 15px;
 }
 .sobre-mim{
     display: inline-block;
@@ -86,7 +86,7 @@ body{
     height: 400px;
     width: 400px;
     position: absolute;
-    border: solid blue;
+    border: solid rgb(98, 0, 255);
     border-right: none;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -98,11 +98,14 @@ body{
 .unasp{
     height: 300px;
 }
+.ligther{
+    height: 250px;
+}
 .experiencia-conteudo{
     height: 400px;
     width: 400px;
     background-color: black;
-    border: solid blue;
+    border: solid rgb(98, 0, 255);
     border-left: none;
     margin-left: 400px;
     color: aliceblue;
@@ -120,7 +123,7 @@ body{
     height: 400px;
     width: 400px;
     position: absolute;
-    border: solid blue;
+    border: solid rgb(98, 0, 255);
     border-right: none;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -133,12 +136,44 @@ body{
     height: 400px;
     width: 400px;
     background-color: black;
-    border: solid blue;
+    border: solid rgb(98, 0, 255);
     border-left: none;
     margin-left: 400px;
     color: aliceblue;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    
+
+}
+.img-academico2{
+    height: 400px;
+    width: 400px;
+    float: right;
+    border: solid rgb(98, 0, 255);
+    border-left: none;
+    background-color: black;
+    color: aliceblue;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.academico-conteudo2{
+    
+    height: 400px;
+    width: 400px;
+    float: left;
+    background-color: black;
+    border: solid rgb(98, 0, 255);
+    border-right: none;
+    color: aliceblue;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 20px;
+
     
 
 }
@@ -243,4 +278,16 @@ body{
     margin-top: 50px;
     position: absolute;
 
+}
+.html{
+    border: solid rgb(255, 68, 0);
+}
+.css{
+    border: solid rgb(0, 0, 255);
+}
+.js{
+    border: solid rgb(255, 251, 0);
+}
+.python{
+    border: solid 4px rgb(8, 128, 34);
 }
