@@ -119,6 +119,42 @@ body {
     flex-direction: column;
 }
 
+.curso-container{
+    color: aliceblue;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.curso-text{
+    float: left;
+    font-size: 1.2em;
+    height: min-content;
+    margin-left: 10px;
+}
+
+.curso-titulo{
+    font-size: 1.3em;
+    margin: 3px 0 0px 10px;
+}
+
+.curso-local{
+    color: lightslategray;
+    margin: 0px 0px 5px 10px;
+
+}
+.curso-img{
+    height: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid aliceblue;
+    float: right;
+    margin: 5px 15px;
+}
+
 .img1 {
     padding: 70px 0px;
     margin: 5px;
@@ -413,6 +449,22 @@ body {
     .mobile {
         visibility: visible;
         position: static;
+    }
+
+    .curso-container{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .curso-text{
+        font-size: 0.9em;
+    }
+
+    .curso-img{
+        height: 60px;
+        margin: 5px;
+        border-radius: 10px !important;
+        width: auto !important;
+
     }
 
     .habilidade-container{
